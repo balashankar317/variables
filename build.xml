@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="variables" basedir="." default="print">
+    <property name="javaVersion" value="17.02"/>
+    <target name="print">
+        <echo>${javaVersion}</echo>
+    </target>
+</project>
